@@ -108,9 +108,9 @@
             </property> 
           </appSettings>  
           <runtime> 
-            <os>windows</os>  
-            <javaVersion>1.8</javaVersion>  
-            <webContainer>tomcat 9.0</webContainer> 
+            <os>linux</os>  
+            <javaVersion>jre8</javaVersion>  
+            <webContainer>TOMCAT 9.0</webContainer> 
           </runtime>  
           <deployment> 
             <resources> 
@@ -122,9 +122,7 @@
               </resource> 
             </resources> 
           </deployment>  
-          <authentication> 
-            <serverId>azure-auth</serverId> 
-          </authentication> 
+        
         </configuration> 
       </plugin> 
     </plugins> 
