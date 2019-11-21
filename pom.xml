@@ -91,9 +91,9 @@
         <version>1.8.0</version>  
         <configuration> 
           <schemaVersion>V2</schemaVersion>  
-          <resourceGroup>Idat_ProyectoPasteleria</resourceGroup>  
-          <appName>an3r2t2g</appName>  
-          <region>eastus</region>  
+          <resourceGroup>project-pastel-bra-south</resourceGroup>  
+          <appName>pastelservices</appName>  
+          <region>southcentralus</region>  
           <pricingTier>F1</pricingTier>  
           <appSettings> 
             <property> 
@@ -121,8 +121,7 @@
                 </includes> 
               </resource> 
             </resources> 
-          </deployment>  
-        
+          </deployment> 
         </configuration> 
       </plugin> 
     </plugins> 
